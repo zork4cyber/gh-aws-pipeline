@@ -7,7 +7,7 @@ const app = express();
 app.use(express.static('./public'));
 
 app.get('/', (req, res) => {
-  res.status(200).send("My zip server");
+  res.status(200).send("Ziptopia");
 });
 
 app.listen(process.env.PORT, () => console.log(`Listening on Port ${process.env.PORT}`));
